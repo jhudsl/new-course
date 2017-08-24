@@ -1,0 +1,29 @@
+title: "New Course"
+left:
+  - text: "Home"
+    href: index.html
+  - text: "Curriculum"
+    menu:
+      - text: "Lecture 1"
+        href: lecture1.html
+      - text: "Lecture 2"
+        href: lecture2.html
+  - text: "Grading"
+    href: grading.html
+  - text: "Staff"
+    menu:
+      - text: "Instructors"
+      - text: "Jeff Leek"
+        href: http://jtleek.com/
+      - text: "Sean Kross"
+        href: http://seankross.com/
+      - text: "Teaching Assistants"
+      - text: "Jack Fu"
+        href: https://jfubiostats.com/
+  - text: "Discussion"
+    href: https://github.com/
+  - text: "Resources"
+    href: resources.html
+right:
+  - icon: fa-github fa-lg
+    href: https://github.com/jhudsl/new-course

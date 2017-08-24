@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Welcome to the Course!</title>
+    <meta charset="utf-8">
+    <meta name="author" content="Jeff Leek" />
+    <meta name="date" content="2017-08-24" />
+    <link href="libs/remark-css/example.css" rel="stylesheet" />
+  </head>
+  <body>
+    <textarea id="source">
+class: center, middle, inverse, title-slide
+
+# Welcome to the Course!
+## JHU Data Science
+### Jeff Leek
+### 2017-08-24
+
+---
+
+class: center, middle
+
+
+
+&lt;!--
+Welcome to the first lecture of the Advanced Data Science course at the Johns
+Hopkins Bloomberg School of Public Health!
+--&gt;
+
+&lt;span style="font-size:52px"&gt;"Pour some science on that data!" - Brian Caffo&lt;span&gt;
+
+&lt;!--
+As doctor Brian Caffo once said: Pour some science on that data!
+--&gt;
+
+---
+class: center, middle
+
+&lt;!--
+Here's a fullscreen image.
+--&gt;
+
+![](https://engineering.jhu.edu/ehe/wp-content/uploads/sites/46/2013/07/DSC_3910.jpg)
+
+---
+class: center, middle
+
+![](01-welcome_files/figure-html/unnamed-chunk-1-1.svg)&lt;!-- --&gt;
+
+&lt;!--
+Here's a plot.
+--&gt;
+
+---
+
+
+```r
+library(tidyverse)
+
+data %&gt;%
+  mutate(xgene = Sugar + Spice) %&gt;%
+  filter(Attribute = "Everything-Nice") %&gt;%
+  group_by(Location) %&gt;%
+  summarise(Meanness = mean(Ness))
+```
+
+&lt;!--
+Whoa is this great code or what? I'm an elite hacker.
+--&gt;
+
+---
+
+.pull-left[
+
+## Lefties
+
+- Babe Ruth
+- Ty Cobb
+- Lou Gehrig
+- Ken Griffey, Jr.
+
+]
+
+.pull-right[
+
+## Right-Wing
+
+- Mitt Romney
+- Colin Powell
+- John McCain
+- Lindsey Graham
+
+]
+
+&lt;!--
+Baseball is a wonderful sport. We will study baseball data in depth in this
+course.
+--&gt;
+
+---
+
+## Witty Insight
+
+- Fact we all understand
+- Generalization that is probably true
+- Well-formed thought
+
+## Consequences
+
+1. Risky conjecture
+2. Big opportunity
+3. Synergies?
+
+&lt;!--
+Here are a few ideas to ponder.
+--&gt;
+    </textarea>
+<script src="https://remarkjs.com/downloads/remark-latest.min.js"></script>
+<script>var slideshow = remark.create({
+"highlightStyle": "github",
+"highlightLines": true,
+"countIncrementalSlides": false
+});
+if (window.HTMLWidgets) slideshow.on('afterShowSlide', function (slide) {window.dispatchEvent(new Event('resize'));});</script>
+
+<script type="text/x-mathjax-config">
+MathJax.Hub.Config({
+  tex2jax: {
+    skipTags: ['script', 'noscript', 'style', 'textarea', 'pre']
+  }
+});
+</script>
+<!-- dynamically load mathjax for compatibility with self-contained -->
+<script>
+(function () {
+  var script = document.createElement('script');
+  script.type = 'text/javascript';
+  script.src  = 'https://cdn.bootcss.com/mathjax/2.7.1/MathJax.js?config=TeX-MML-AM_CHTML';
+  if (location.protocol !== 'file:' && /^https?:/.test(script.src))
+    script.src  = script.src.replace(/^https?:/, '');
+  document.getElementsByTagName('head')[0].appendChild(script);
+})();
+</script>
+  </body>
+</html>

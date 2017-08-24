@@ -1,0 +1,114 @@
+---
+title: "Welcome to the Course!"
+subtitle: "JHU Data Science"
+author: "Jeff Leek"
+date: "2017-08-24"
+output:
+  xaringan::moon_reader:
+    lib_dir: libs
+    nature:
+      highlightStyle: github
+      highlightLines: true
+      countIncrementalSlides: false
+---
+class: center, middle
+
+```{r setup, include=FALSE}
+options(htmltools.dir.version = FALSE)
+```
+
+<!--
+Welcome to the first lecture of the Advanced Data Science course at the Johns
+Hopkins Bloomberg School of Public Health!
+-->
+
+<span style="font-size:52px">"Pour some science on that data!" - Brian Caffo<span>
+
+<!--
+As doctor Brian Caffo once said: Pour some science on that data!
+-->
+
+---
+class: center, middle
+
+<!--
+Here's a fullscreen image.
+-->
+
+![](https://engineering.jhu.edu/ehe/wp-content/uploads/sites/46/2013/07/DSC_3910.jpg)
+
+---
+class: center, middle
+
+```{r, echo=FALSE, fig.height=5, fig.width=7, dev='svg'}
+plot(rnorm(100), rnorm(100), main = "Nice Plot", 
+     xlab = "Math", ylab = "Wow Factor")
+```
+
+<!--
+Here's a plot.
+-->
+
+---
+
+```{r, eval=FALSE}
+library(tidyverse)
+
+data %>%
+  mutate(xgene = Sugar + Spice) %>%
+  filter(Attribute = "Everything-Nice") %>%
+  group_by(Location) %>%
+  summarise(Meanness = mean(Ness))
+```
+
+<!--
+Whoa is this great code or what? I'm an elite hacker.
+-->
+
+---
+
+.pull-left[
+
+## Lefties
+
+- Babe Ruth
+- Ty Cobb
+- Lou Gehrig
+- Ken Griffey, Jr.
+
+]
+
+.pull-right[
+
+## Right-Wing
+
+- Mitt Romney
+- Colin Powell
+- John McCain
+- Lindsey Graham
+
+]
+
+<!--
+Baseball is a wonderful sport. We will study baseball data in depth in this
+course.
+-->
+
+---
+
+## Witty Insight
+
+- Fact we all understand
+- Generalization that is probably true
+- Well-formed thought
+
+## Consequences
+
+1. Risky conjecture
+2. Big opportunity
+3. Synergies?
+
+<!--
+Here are a few ideas to ponder.
+-->
+

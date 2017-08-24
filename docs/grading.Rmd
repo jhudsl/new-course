@@ -1,0 +1,34 @@
+## Grading
+
+I believe the purpose of graduate education is to train you to be able to think for yourself and initiate and complete your own projects. I am super excited to talk to you about ideas, work out solutions with you, and help you to figure out statistical methods and/or data analysis. I don’t think that graduate school grades are important for this purpose. This means that I don’t care very much about graduate student grades.
+
+That being said, I have to give you a grade so they will be: 
+
+1. A - Excellent - 90%+
+2. B - Passing - 80%+
+3. C - Needs improvement - 70%+
+
+If you are getting a grade below a C it is because you basically aren't trying/working. I rarely give them out.
+
+
+### Adv Data Sci I
+
+The percentages will be assigned in the following way: 
+
+* Pre-class swirl module - 5%
+* Completing swirl modules - 45% 
+* Preparedness/attendance at labs - 25%
+* Final project - 25% 
+
+You get the points for the swirl modules as long as you complete them before class starts (no exceptions without prior approval). You get 50% of the points for attendance at labs and 50% for having your current version of the code up-to-date. The data analysis assignment will be graded on a 1-5 scale for each category described below and the percentages assigned as described below. 
+
+
+### Adv Data Sci II
+
+The percentages will be assigned in the following way: 
+
+* Completing swirl modules - 20% 
+* Preparedness/attendance at labs - 50%
+* Final project - 50% 
+
+You get the points for the swirl modules as long as you complete them before class starts (no exceptions without prior approval). You get 50% of the points for attendance at labs and 50% for having your current version of the code up-to-date. The data analysis project will be graded on a 1-5 scale as described below. 
