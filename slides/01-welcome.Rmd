@@ -112,3 +112,20 @@ course.
 Here are a few ideas to ponder.
 -->
 
+---
+
+<div style="position: relative;width: 100%;">
+
+      <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4f/US_Capitol_west_side.JPG/2880px-US_Capitol_west_side.JPG" alt="" />
+      
+      <h2><span style="position: absolute;top: 330px;left: 0;color:white;background-color:black;padding:2px">The US Capitol</span></h2>
+      
+
+</div>
+
+
+
+<!--
+Text over an image.
+-->
+
